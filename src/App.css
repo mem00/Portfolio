@@ -32,16 +32,25 @@
   }
 }
 
+.header{
+  color: rgb(65, 0, 241)
+}
+
 .title{
   text-align: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .sub-header{
   text-align: center;
   padding-top: 0px;
   margin-top: 0px;
+}
 
+.link-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
