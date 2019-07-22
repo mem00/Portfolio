@@ -6,27 +6,27 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     card: {
-      width: '300px',
+      width: '600px'
     },
-    grid:{
-       padding: '30px'
-    }
+    grid: {
+      padding: '30px'
+   }
 })
 
-function Contact() {
+function About() {
     const classes = useStyles()
   return (
- 
     <Grid container justify="center" className={classes.grid}>
         <Card className={classes.card}>
-            <CardContent>
-                <div className="content">203-505-4487</div>
-                <div className="content">michael@mcguire.ch</div>
-                <div className="content"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mem00">GitHub</a></div>
-            </CardContent>
+        <CardContent>
+        <div>I am a job searching software engineer.</div>
+        <div> A.B. Cognitive Science, University of Geogia.</div>
+        <div>Software Engineering Immersive, General Assembly, NYC.</div>
+        <div>I am looking for an opportunity to learn and contribute in a full-stack position.</div>
+        </CardContent>
         </Card>
     </Grid>
   );
 }
 
-export default Contact;
+export default About;
