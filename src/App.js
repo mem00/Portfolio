@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './Components/Header'
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
 import './App.css';
 
+const useStyles = makeStyles({
+  paper: {
+    width: '600px'
+  }
+})
+
+
 function App() {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container justify="center">
+      <Paper className={classes.paper}>
+        <Header/>
+      </Paper>
+    </Grid>
   );
 }
 
