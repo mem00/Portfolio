@@ -3,16 +3,10 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import Header from './Components/Header'
 import Links from './Components/Links'
 import About from './Components/About'
+import Projects from './Components/Projects'
 import Contact from './Components/Contact'
-import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid'
 import './App.css';
-
-const useStyles = makeStyles({
-  paper: {
-    width: '600px'
-  }
-})
 
 
 function App() {
@@ -24,7 +18,7 @@ function App() {
         <Links/>
         <Switch>
           <Route exact path= "/" render={()=> <About/>}/>
-          <Route exact path= "/projects" render={()=> <div>hello again</div>}/>
+          <Route exact path= "/projects" render={()=> <Projects/>}/>
           <Route exact path= "/contact" render={()=><Contact/>}/>
         
 

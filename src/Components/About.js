@@ -19,10 +19,10 @@ function About() {
     <Grid container justify="center" className={classes.grid}>
         <Card className={classes.card}>
         <CardContent>
-        <div>I am a job searching software engineer.</div>
-        <div> A.B. Cognitive Science, University of Geogia.</div>
-        <div>Software Engineering Immersive, General Assembly, NYC.</div>
-        <div>I am looking for an opportunity to learn and contribute in a full-stack position.</div>
+        <div className="content">I am a job searching software engineer.</div>
+        <div className="content"> A.B. Cognitive Science, University of Geogia.</div>
+        <div className="content">Software Engineering Immersive, General Assembly, NYC.</div>
+        <div className="content">I am looking for an opportunity to learn and contribute in a full-stack position.</div>
         </CardContent>
         </Card>
     </Grid>
