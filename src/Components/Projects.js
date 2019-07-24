@@ -21,7 +21,7 @@ function Projects() {
        <Grid item>
             <Card className={classes.card}>
                 <CardContent>
-                    <div className="content">CurArt</div>
+                    <div className="content-title">CurArt</div>
                     <div className="content">React, CSS Flexbox, Met API</div>
                     <div className="content">Load art from the Met Collection, save your favorites, and continue!</div>
                     <div className="content"><a target="_blank" rel="noopener noreferrer" href="https://broken-thought.surge.sh/">View Here</a></div>
@@ -32,7 +32,7 @@ function Projects() {
         <Grid item>
             <Card className={classes.card}>
                 <CardContent>
-                    <div className="content">Gift Me</div>
+                    <div className="content-title">Gift Me</div>
                     <div className="content">PSQL, Express, Sequelize, React, Material UI</div>
                     <div className="content">Full CRUD application. Add items and events to your wish list. Friends and family
                     can find your wish list by your email.</div>
@@ -43,7 +43,7 @@ function Projects() {
         <Grid item>
             <Card className={classes.card}>
                 <CardContent>
-                    <div className="content">Convey</div>
+                    <div className="content-title">Convey</div>
                     <div className="content">PSQL, Ruby on Rails, Action Cable, React, Material UI</div>
                     <div className="content">Direct messaging app using WebSockets. Sign up and message me! (username: mem) </div>
                     <div className="content"><a target="_blank" rel="noopener noreferrer" href="https://convey-messenger.herokuapp.com/">View Here</a></div>

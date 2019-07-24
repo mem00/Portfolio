@@ -40,7 +40,6 @@
   text-align: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  /* text-decoration: underline; */
 }
 
 .sub-header{
@@ -57,4 +56,9 @@
 
 .content{
   text-align: center;
+}
+
+.content-title{
+  text-align: center;
+  font-weight: bold;
 }
